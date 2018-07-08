@@ -1,0 +1,42 @@
+/* ==UserStyle==
+@name           Bamboo-X
+@namespace      https://github.com/Catgrills/Bamboo-X
+@version        1.0.5
+@description    An userstyle for E-hentai/Exhentai called Bamboo-X.
+@author         Catgrills/Katgrills
+@preprocessor uso
+==/UserStyle== */
+@-moz-document domain("telegra.ph") {
+/*[[theme]]*/
+	* {
+    	color: white;
+	}
+
+	body {
+	    background-color: black;
+	    margin: 0 30% 0 30%;
+	}
+
+	.tl_page_wrap, img {
+	    height: auto;
+	    width: 100%;
+	    margin: 0;
+	    max-width: unset;
+	}
+
+	.tl_article .tl_article_content .figure_wrapper img, .tl_article .tl_article_content .figure_wrapper video {
+	    max-height: unset;
+	}
+
+	figure {
+	    transition: all .2s ease-in-out !important;
+	    height: 100%;
+	    display: grid;
+	}
+
+	figure:hover {
+	    transform: scale(2);
+	/*     height: 80%; */
+	    z-index:1;
+	}
+}
