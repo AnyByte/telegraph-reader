@@ -1,15 +1,15 @@
 /* ==UserStyle==
-@name           Bamboo-X
-@namespace      https://github.com/Catgrills/Bamboo-X
-@version        1.0.5
-@description    An userstyle for E-hentai/Exhentai called Bamboo-X.
-@author         Catgrills/Katgrills
+@name           Telegraph-Reader
+@namespace      https://github.com/NyaBit/telegraph-reader
+@version        0.0.1
+@description    An userstyle for Telegra.ph articles.
+@author         NyaBit/MaxAvatar
 @preprocessor uso
 ==/UserStyle== */
 @-moz-document domain("telegra.ph") {
 /*[[theme]]*/
 	* {
-    	color: white;
+	    color: white;
 	}
 
 	body {
@@ -36,7 +36,6 @@
 
 	figure:hover {
 	    transform: scale(2);
-	/*     height: 80%; */
 	    z-index:1;
 	}
 }
